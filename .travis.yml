@@ -10,4 +10,4 @@ install:
   - pip install aiohttp telebot pymongo pytz psutil
 
 script:
-  - chmod +x * && chmod +x Pawan && python3 danger.py
+  - chmod +x * && chmod +x danger && python3 danger.py
